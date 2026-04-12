@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - General Fashion Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!-- Force scrolled background so the nav is solid -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="gfa logo.PNG" alt="GFA Logo" class="logo-img">
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">General Fashion</span>
+                    <span class="logo-sub">Academy Accra</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#footer" class="btn-contact">Contact Us</a></li>
+            </ul>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobile-nav">
+        <ul>
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="about.html" class="mobile-link">About Us</a></li>
+            <li><a href="admission.html" class="mobile-link">Admission</a></li>
+            <li><a href="courses.html" class="mobile-link">Courses</a></li>
+            <li><a href="gallery.html" class="mobile-link">Gallery</a></li>
+            <li><a href="#footer" class="mobile-link">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Give some breathing room for the fixed navbar -->
+    <div style="height: 100px; background: var(--bg-light);"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" style="min-height: 60vh;">
+        <div class="container">
+            <div class="about-content fade-in-up">
+                <h2 class="section-title">About Us</h2>
+                <div class="accent-line"></div>
+                <p class="lead-text">
+                    General Fashion Academy is a small-scale dressmaking firm that has been in business since 1994.
+                    Quality, innovation, and passion define everything we do.
+                </p>
+                <p>
+                    It is one of the 15 companies selected in 2002 by the government of Ghana to launch the President’s
+                    Special Initiative (PSI) on textile and garment to take advantage of AGOA (Africa Growth &amp;
+                    Opportunity Act) &amp; also one of the most recognized dressmaking firms in the Kumasi Metropolis.
+                </p>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-number">1994</span>
+                        <span class="stat-label">Established</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label">Top PSI Companies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Success Stories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 class="footer-title">General Fashion Academy</h3>
+                <p class="footer-about">Crafting excellence in Kumasi since 1994. Join us to transform your passion into
+                    a lifelong profession.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-title">Contact Us</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Accra Metropolis, Ghana</li>
+                    <li><i class="fas fa-phone-alt"></i> +233 24 323 2532</li>
+                    <li><i class="fas fa-envelope"></i> info@generalfashionacademyaccra.com</li>
+                    <li><i class="fas fa-clock"></i> Mon - Fri: 8:00 AM - 3:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 General Fashion Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
